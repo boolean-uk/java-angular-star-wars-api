@@ -24,7 +24,10 @@ export class Add {
   }
 
   addPerson() {
-    this.starWarsService.addPerson(this.personForm.value).subscribe((response: any) => response);
-    this.router.navigate(['/']);
+    this.starWarsService.addPerson(this.personForm.value).subscribe(() => {
+      this.personForm.reset();
+      this.router.navigate(['/people']);
+    });
+    
   }
 }
