@@ -1,0 +1,4 @@
+@for (person of this.people$ | async; track person) {
+    <h2>{{ person.name }}</h2>
+    <p>{{ person.description }}</p>
+}

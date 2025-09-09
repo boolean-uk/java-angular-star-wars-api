@@ -7,5 +7,5 @@ import { Component, signal } from '@angular/core';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('java-angular-starwars-api');
+  title: string = "Dave's Star Wars API Thingy";
 }

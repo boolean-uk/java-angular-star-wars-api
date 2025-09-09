@@ -1,0 +1,39 @@
+{
+  "people": [
+    {
+      "id": "1",
+      "name": "Luke Skywalker",
+      "description": "A Jedi like his father"
+    },
+    {
+      "id": "2",
+      "name": "Leia Organa",
+      "description": "A princess and Luke's twin sister"
+    },
+    {
+      "id": "3",
+      "name": "Anakin Skywalker",
+      "description": "A Jedi who turned to the dark side"
+    },
+    {
+      "id": "4",
+      "name": "Ben Solo",
+      "description": "Otherwise known as Kylo Ren"
+    },
+    {
+      "id": "bfd5",
+      "name": "Han Solo",
+      "description": "Pilot and smuggler"
+    },
+    {
+      "id": "92a7",
+      "name": "Chewbacca",
+      "description": "Wookie"
+    },
+    {
+      "id": "6aca",
+      "name": "Lando Calrissien",
+      "description": "Scoundrel"
+    }
+  ]
+}
