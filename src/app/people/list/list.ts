@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { StarWarsService } from '../../services/star-wars-service';
 import { Observable } from 'rxjs';
 import { Person } from '../models/person';
@@ -16,6 +16,6 @@ export class List {
 
   ngOnInit(): void {
     this.people$ = this.starWarsService.getPeople();
-    // this.people$.subscribe((person) => person);
+    this.people$.subscribe((person) => person);
   }
 }

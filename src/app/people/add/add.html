@@ -1,1 +1,14 @@
-<p>add works!</p>
+<div>
+    <h2>Add a Person</h2>
+    <form [formGroup]="personForm" (ngSubmit)="addPerson()">
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" id="name" formControlName="name" />
+        </div>
+        <div>
+            <label for="description">Description: </label>
+            <input type="text" id="description" formControlName="description" />
+        </div>
+        <button type="submit" [disabled]="personForm.invalid">Add person</button>
+    </form>
+</div>

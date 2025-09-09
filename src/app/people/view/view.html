@@ -1,1 +1,9 @@
-<p>view works!</p>
+@if (!this.person) {
+    <p><strong>That person was not found!</strong></p>
+} @else {
+    <div>
+        <h4>Details</h4>
+        <p>Name: <strong>{{this.person.name}}</strong></p>
+        <p>Description: <strong>{{this.person.description}}</strong></p>
+    </div>
+}

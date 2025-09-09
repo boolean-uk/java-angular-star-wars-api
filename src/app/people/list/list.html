@@ -1,4 +1,4 @@
 @for (person of this.people$ | async; track person) {
     <h2>{{ person.name }}</h2>
-    <p>{{ person.description }}</p>
+    <p>{{ person.description }} <a routerLink="/people/{{person.id}}">Link</a></p>
 }
